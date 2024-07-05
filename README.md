@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+First install react in your vs code (npx create-react-app my-app) using the above mentioned and start by using npm start.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+After starting the development server, open your browser and go to http://localhost:3000. You should see the ToDo List application interface where you can:
 
-## Available Scripts
+Add Tasks: Enter a title and description, then click "ADD".
+View Tasks: All tasks will be displayed in a list.
+Delete Tasks: Click the delete button next to a task to remove it.
+Edit Tasks: Click the edit button next to a task to edit its details.
 
-In the project directory, you can run:
+Features
+Add Tasks: Users can add tasks with a title and description.
+View Tasks: Users can view a list of all added tasks.
+Delete Tasks: Users can delete tasks from the list.
+Edit Tasks: Users can edit the title and description of existing tasks.
+Persistent Storage: Tasks are stored in local storage, so they persist even after the browser is closed or refreshed.
 
-### `npm start`
+TaskForm
+The TaskForm component is responsible for rendering the form that allows users to add new tasks and edit existing tasks. It also handles the state management for task input fields and the logic for adding and editing tasks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+TaskList
+The TaskList component is responsible for rendering the list of tasks. It receives the list of tasks as props and includes functionality for deleting tasks.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Technologies Used
+React: A JavaScript library for building user interfaces.
+Local Storage: Web storage for persisting tasks data.
+CSS: Styling the application.
