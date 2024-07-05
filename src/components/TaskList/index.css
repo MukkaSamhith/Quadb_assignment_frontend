@@ -1,0 +1,21 @@
+.display-list{
+    background-color: black;
+    height: 100%;
+    color:white;
+    margin:8px;
+}
+
+.title{
+    color:white;
+}
+
+.display-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width:2px;
+    border-style: solid;
+    border-color: white;
+    padding: 8px;
+    margin:8px;
+}
